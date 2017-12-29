@@ -2,7 +2,7 @@
 
 /* send.php */
 
-define("SECRET_KEY","6Lc4STcUAAAAAOj5ghNprt8g7PCr4B6UQwMtiU3H"); // ustawiamy secret key
+define("SECRET_KEY","TWÓJ SECRET KEY"); // ustawiamy secret key
 $recaptcha = filter_var($_REQUEST['recaptcha'],FILTER_SANITIZE_STRING); // filtrujemy dane z recaptcha
 
 // odwołanie do zewnętrznych zasobów
